@@ -9,7 +9,15 @@ public class Nodo<E>{
 		this.nextNodo = nextNodo;
 	}
 	
+	public E getValor(){
+		return valor;
+	}
 	public E getNextNodo(){
 		return nextNodo;
 	}
+	
+	public void setNextNodo(E nodo){
+		nextNodo = nodo;
+	}
+	
 }
