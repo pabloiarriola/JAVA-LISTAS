@@ -1,4 +1,5 @@
 public interface Listas<E>{
+	 
 	public int size();
 	public void addFirst (E value);
 	public E removeFirst();
