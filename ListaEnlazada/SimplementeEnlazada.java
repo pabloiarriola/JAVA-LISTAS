@@ -1,5 +1,5 @@
 
-public class SimplementeEnlazda <E> implements ListaEnlazada{
+public class SimplementeEnlazada <E> implements ListaEnlazada{
 	
 	protected int contador;
 	
@@ -58,6 +58,14 @@ public class SimplementeEnlazda <E> implements ListaEnlazada{
 			ap = ap.next();
 		}
 		return ap !=null;
+	}
+	
+	public E getFirst(){
+		return cabeza.value();
+	}
+	
+	public E getLast(){
+		return cola.value();
 	}
 
 		
