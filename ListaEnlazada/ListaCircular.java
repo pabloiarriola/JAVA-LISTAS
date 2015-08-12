@@ -1,4 +1,4 @@
-public class ListaCircular {
+public class ListaCircular <E>{
     
     class Nodo {
         int info;
